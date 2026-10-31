@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cells": 42,
+  "new_targets": 22,
+  "original_0.20_reruns": 0,
+  "monotonicity": "PASS",
+  "elapsed_seconds": 204.272835875
+}

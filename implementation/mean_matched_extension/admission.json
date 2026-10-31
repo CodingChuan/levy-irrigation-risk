@@ -1,0 +1,15 @@
+{
+  "status": "ADMITTED_NEW_REFERENCE_ROWS_ONLY",
+  "source_hashes": {
+    "contract.md": "7d5a6781b3f82095e0390441d90c49cef5fe350e00b83aa1b11b3916f3ff2ed1",
+    "parent_binding.json": "c5fa8a56c5cdada08da2401863cee8348849b83dd6fc22465af4b472fa3fdf0d",
+    "src/bellman.py": "d6a373a41a4552e94c740f785c5ad52a045a44f95d1cc96008fc7c6fa1778d6b",
+    "src/model.py": "6a290d3806d77d9fbb54861e98f6692852b05b875e9b4c2212ed5a032f27d73f",
+    "src/constrained.py": "ab138ea82d980912f792c11b7db95c9f64e1146d43d8550884f914acb26e0e36",
+    "src/extension.py": "adf7811f3db18e6320ca8a464df4555771262fe059c2284e85a912de88c5cb6f"
+  },
+  "controls_sha256": "9c774f37d96476d667c7de79c2ac3c848e32bd8467450e5606a22e92f5249eff",
+  "new_rows": 5,
+  "original_rows_reused": 10,
+  "neural_training": false
+}

@@ -1,0 +1,4 @@
+mechanism,lambda,min_risk,constrained_water,constrained_risk,grid_upper,grid_h,reference_status
+Brownian,0,0.0636983655,0.0595078008,0.2000000000,1.55,0.0025,PASS
+Mean-matched diffusion,0,0.1158276881,0.1111883098,0.2000000000,1.55,0.0025,PASS
+Levy,0.12,0.1828302314,0.1732943219,0.2000000000,1.55,0.0025,PASS

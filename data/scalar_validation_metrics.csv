@@ -1,0 +1,5 @@
+metric,max_value,frozen_gate
+paired_prediction_difference,0.0061579769686801455,0.025
+fd_p95_error,0.0067146010865428265,0.04
+pide_p95_error,0.003507807919789002,0.02
+interface_absolute_difference,0,1e-10

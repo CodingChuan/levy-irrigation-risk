@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cells": 42,
+  "new_targets": 22,
+  "reused_cells": 20,
+  "monotonicity": "PASS",
+  "convexity_discrete_grid": "PASS",
+  "new_target_gaps_max": 3.7852082579448165e-12,
+  "new_target_gaps_min": 2.3021515249688207e-14,
+  "source_hashes": "PASS",
+  "reused_hashes": "PASS",
+  "science_stderr": 0,
+  "fallback": false,
+  "figure_qa": "PASS"
+}

@@ -1,0 +1,43 @@
+mechanism,risk_limit,status,expected_water,achieved_risk,source
+Brownian,0.0,INFEASIBLE,,,reused_minimum_risk
+Brownian,0.05,INFEASIBLE,,,reused_minimum_risk
+Brownian,0.1,FEASIBLE,0.10788447419329072,0.1,new_target
+Brownian,0.15,FEASIBLE,0.07962113921144615,0.15,new_target
+Brownian,0.2,FEASIBLE,0.05950780082320114,0.2,reused_original_0.20
+Brownian,0.25,FEASIBLE,0.04273196253406745,0.25,new_target
+Brownian,0.3,FEASIBLE,0.028004661037400777,0.3,new_target
+Brownian,0.35,FEASIBLE,0.015004798266900777,0.35,new_target
+Brownian,0.4,FEASIBLE,0.004083013354238897,0.4,new_target
+Brownian,0.45,FEASIBLE,0.0,0.42512825531675313,reused_zero_water
+Brownian,0.5,FEASIBLE,0.0,0.42512825531675313,reused_zero_water
+Brownian,0.55,FEASIBLE,0.0,0.42512825531675313,reused_zero_water
+Brownian,0.6,FEASIBLE,0.0,0.42512825531675313,reused_zero_water
+Brownian,0.65,FEASIBLE,0.0,0.42512825531675313,reused_zero_water
+Mean-matched diffusion,0.0,INFEASIBLE,,,reused_minimum_risk
+Mean-matched diffusion,0.05,INFEASIBLE,,,reused_minimum_risk
+Mean-matched diffusion,0.1,INFEASIBLE,,,reused_minimum_risk
+Mean-matched diffusion,0.15,FEASIBLE,0.1421448258880217,0.15,new_target
+Mean-matched diffusion,0.2,FEASIBLE,0.11118830976260116,0.2,reused_original_0.20
+Mean-matched diffusion,0.25,FEASIBLE,0.08845053461439281,0.25,new_target
+Mean-matched diffusion,0.3,FEASIBLE,0.06903946125732147,0.3,new_target
+Mean-matched diffusion,0.35,FEASIBLE,0.05165833666285788,0.35,new_target
+Mean-matched diffusion,0.4,FEASIBLE,0.035924479723379706,0.4,new_target
+Mean-matched diffusion,0.45,FEASIBLE,0.021838953599441175,0.45000000000000007,new_target
+Mean-matched diffusion,0.5,FEASIBLE,0.00963747311569772,0.5,new_target
+Mean-matched diffusion,0.55,FEASIBLE,0.0002666025394870401,0.55,new_target
+Mean-matched diffusion,0.6,FEASIBLE,0.0,0.5522733429289849,reused_zero_water
+Mean-matched diffusion,0.65,FEASIBLE,0.0,0.5522733429289849,reused_zero_water
+Jump diffusion,0.0,INFEASIBLE,,,reused_minimum_risk
+Jump diffusion,0.05,INFEASIBLE,,,reused_minimum_risk
+Jump diffusion,0.1,INFEASIBLE,,,reused_minimum_risk
+Jump diffusion,0.15,INFEASIBLE,,,reused_minimum_risk
+Jump diffusion,0.2,FEASIBLE,0.1732943218963841,0.2,reused_original_0.20
+Jump diffusion,0.25,FEASIBLE,0.1300953293632495,0.25,new_target
+Jump diffusion,0.3,FEASIBLE,0.10220594929605661,0.3,new_target
+Jump diffusion,0.35,FEASIBLE,0.07915661443757335,0.35000000000000003,new_target
+Jump diffusion,0.4,FEASIBLE,0.058821479523697484,0.4,new_target
+Jump diffusion,0.45,FEASIBLE,0.0406063474779775,0.45,new_target
+Jump diffusion,0.5,FEASIBLE,0.02446090017044747,0.5,new_target
+Jump diffusion,0.55,FEASIBLE,0.010640961855525504,0.55,new_target
+Jump diffusion,0.6,FEASIBLE,0.0002562634094611323,0.6,new_target
+Jump diffusion,0.65,FEASIBLE,0.0,0.6020798666647816,reused_zero_water

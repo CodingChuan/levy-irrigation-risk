@@ -1,0 +1,11 @@
+{
+  "src/test_reference.py": "2c8e8ef50ae919acf77e243f1d83875f04c4287fd700d05ae9e09a9fb5ecc52f",
+  "src/bellman.py": "d6a373a41a4552e94c740f785c5ad52a045a44f95d1cc96008fc7c6fa1778d6b",
+  "src/model.py": "6a290d3806d77d9fbb54861e98f6692852b05b875e9b4c2212ed5a032f27d73f",
+  "src/constrained.py": "ab138ea82d980912f792c11b7db95c9f64e1146d43d8550884f914acb26e0e36",
+  "src/extension.py": "adf7811f3db18e6320ca8a464df4555771262fe059c2284e85a912de88c5cb6f",
+  "src/plot_extension.py": "5a06f0bbef3e0b86df38f475dcdd83634ff348f3bdcb15af77eb6512f77ecdda",
+  "contract.md": "7d5a6781b3f82095e0390441d90c49cef5fe350e00b83aa1b11b3916f3ff2ed1",
+  "figure_contract.md": "514469b1336a88d9d30721732a365e5e78462998478e9cc99a3b9c0f7d612171",
+  "admission.json": "c02b7f6121d21bcfb839418336e506b26042f912a9d4562dd9aebc50a9cd72a7"
+}

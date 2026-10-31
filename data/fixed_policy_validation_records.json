@@ -1,0 +1,4552 @@
+{
+  "configurations": [
+    {
+      "key": "zero_lambda_0_seed_20260928",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 0.0,
+          "pass": true
+        },
+        "export_sha256": "01f4f3058febd0189948549eb9b09ba9f680c95322bd66d53b18dc5cb8bbf6ae",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.0,
+          "backward_terminal_failure_risk": 0.4251282553164376,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 2.8387941553501596e-05,
+              "safe_sentinel_mass_after_dynamics": 3.823923947244756e-60,
+              "total_mass": 0.9999999999999973
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 1,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.002979113626321047,
+              "safe_sentinel_mass_after_dynamics": 2.0411073414118217e-34,
+              "total_mass": 0.9999999999999986
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 2,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.01529788239593369,
+              "safe_sentinel_mass_after_dynamics": 1.5056768340149395e-25,
+              "total_mass": 0.9999999999999992
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 3,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.036052941094757346,
+              "safe_sentinel_mass_after_dynamics": 4.085193324262575e-21,
+              "total_mass": 0.9999999999999994
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.061705812705811484,
+              "safe_sentinel_mass_after_dynamics": 1.7626902911508417e-18,
+              "total_mass": 0.9999999999999996
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.08964374377890783,
+              "safe_sentinel_mass_after_dynamics": 9.490144787574518e-17,
+              "total_mass": 0.9999999999999993
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.11832143850209122,
+              "safe_sentinel_mass_after_dynamics": 1.5533988338046126e-15,
+              "total_mass": 0.999999999999999
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.14688336657257758,
+              "safe_sentinel_mass_after_dynamics": 1.2095108590038382e-14,
+              "total_mass": 0.9999999999999986
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.17487292996176262,
+              "safe_sentinel_mass_after_dynamics": 5.749538311455743e-14,
+              "total_mass": 0.9999999999999982
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.20205820783499395,
+              "safe_sentinel_mass_after_dynamics": 1.9388119559997423e-13,
+              "total_mass": 0.9999999999999974
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.22833316754184527,
+              "safe_sentinel_mass_after_dynamics": 5.103400065213393e-13,
+              "total_mass": 0.9999999999999966
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.25366208895528014,
+              "safe_sentinel_mass_after_dynamics": 1.1176754327873036e-12,
+              "total_mass": 0.9999999999999961
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2780481037442366,
+              "safe_sentinel_mass_after_dynamics": 2.1285376060197346e-12,
+              "total_mass": 0.9999999999999953
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.301515228311094,
+              "safe_sentinel_mass_after_dynamics": 3.6377634120927472e-12,
+              "total_mass": 0.9999999999999944
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.32409803731507836,
+              "safe_sentinel_mass_after_dynamics": 5.709239364078995e-12,
+              "total_mass": 0.9999999999999936
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.34583572393196116,
+              "safe_sentinel_mass_after_dynamics": 8.371129819877212e-12,
+              "total_mass": 0.9999999999999929
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.3667687108457548,
+              "safe_sentinel_mass_after_dynamics": 1.1618037829076406e-11,
+              "total_mass": 0.9999999999999921
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.38693675899811064,
+              "safe_sentinel_mass_after_dynamics": 1.5417369863189413e-11,
+              "total_mass": 0.9999999999999911
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.4063779607549321,
+              "safe_sentinel_mass_after_dynamics": 1.971730784828238e-11,
+              "total_mass": 0.9999999999999901
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.4251282553164415,
+              "safe_sentinel_mass_after_dynamics": 2.4454552644425067e-11,
+              "total_mass": 0.9999999999999893
+            }
+          ],
+          "expected_water_abs_difference": 0.0,
+          "forward_expected_water": 0.0,
+          "forward_terminal_failure_mass": 0.4251282553164415,
+          "pass": true,
+          "risk_abs_difference": 3.885780586188048e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.0,
+            "risk": 7.642326090850915e-07
+          },
+          "model_expected_water": 0.0,
+          "model_risk": 0.4251274910838285,
+          "reference_expected_water": 0.0,
+          "reference_risk": 0.4251282553164376
+        },
+        "intensity": 0.0,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.0,
+            "max_abs_error": 0.0,
+            "p95_abs_error": 0.0
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.0,
+            "max_abs_error_risk": 0.00014409622580746628,
+            "p95_abs_error_expected_water": 0.0,
+            "p95_abs_error_risk": 8.843019517884521e-06
+          },
+          "maximum_error_location": {
+            "abs_error": 0.00015186857353548027,
+            "budget": 0.0,
+            "channel": "risk",
+            "day": 19,
+            "local_time": 0.75,
+            "water": 0.44
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -6.958575269583323e-05
+          },
+          "risk": {
+            "initial_abs_error": 7.642326090850915e-07,
+            "max_abs_error": 0.00015186857353548027,
+            "p95_abs_error": 2.99444280856322e-05
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.029099236719512867,
+          "lower_layer_p95_abs": 9.152906126773093e-05,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.01192306939973864,
+          "ordinary_median_abs": 1.3032453154843138e-10,
+          "ordinary_p95_abs": 4.132204825132911e-05,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260928
+        },
+        "policy": "zero",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 0.00022143205912333874,
+            "expected_water": 0.0,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.42534968737556095,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 4.42820616763373e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.42517253737811395,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 4.418233832959029e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.4251724376547672,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 4.428206167766957e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.4251725373781153,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260928,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 1.4477666287768126e-08,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "zero_lambda_0_seed_20260929",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 0.0,
+          "pass": true
+        },
+        "export_sha256": "feb07880c972ad2b748efd55f42d91f1a8f4aaf00784f3c4a60084e2e6706ba9",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.0,
+          "backward_terminal_failure_risk": 0.4251282553164376,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 2.8387941553501596e-05,
+              "safe_sentinel_mass_after_dynamics": 3.823923947244756e-60,
+              "total_mass": 0.9999999999999973
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 1,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.002979113626321047,
+              "safe_sentinel_mass_after_dynamics": 2.0411073414118217e-34,
+              "total_mass": 0.9999999999999986
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 2,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.01529788239593369,
+              "safe_sentinel_mass_after_dynamics": 1.5056768340149395e-25,
+              "total_mass": 0.9999999999999992
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 3,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.036052941094757346,
+              "safe_sentinel_mass_after_dynamics": 4.085193324262575e-21,
+              "total_mass": 0.9999999999999994
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.061705812705811484,
+              "safe_sentinel_mass_after_dynamics": 1.7626902911508417e-18,
+              "total_mass": 0.9999999999999996
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.08964374377890783,
+              "safe_sentinel_mass_after_dynamics": 9.490144787574518e-17,
+              "total_mass": 0.9999999999999993
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.11832143850209122,
+              "safe_sentinel_mass_after_dynamics": 1.5533988338046126e-15,
+              "total_mass": 0.999999999999999
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.14688336657257758,
+              "safe_sentinel_mass_after_dynamics": 1.2095108590038382e-14,
+              "total_mass": 0.9999999999999986
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.17487292996176262,
+              "safe_sentinel_mass_after_dynamics": 5.749538311455743e-14,
+              "total_mass": 0.9999999999999982
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.20205820783499395,
+              "safe_sentinel_mass_after_dynamics": 1.9388119559997423e-13,
+              "total_mass": 0.9999999999999974
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.22833316754184527,
+              "safe_sentinel_mass_after_dynamics": 5.103400065213393e-13,
+              "total_mass": 0.9999999999999966
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.25366208895528014,
+              "safe_sentinel_mass_after_dynamics": 1.1176754327873036e-12,
+              "total_mass": 0.9999999999999961
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2780481037442366,
+              "safe_sentinel_mass_after_dynamics": 2.1285376060197346e-12,
+              "total_mass": 0.9999999999999953
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.301515228311094,
+              "safe_sentinel_mass_after_dynamics": 3.6377634120927472e-12,
+              "total_mass": 0.9999999999999944
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.32409803731507836,
+              "safe_sentinel_mass_after_dynamics": 5.709239364078995e-12,
+              "total_mass": 0.9999999999999936
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.34583572393196116,
+              "safe_sentinel_mass_after_dynamics": 8.371129819877212e-12,
+              "total_mass": 0.9999999999999929
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.3667687108457548,
+              "safe_sentinel_mass_after_dynamics": 1.1618037829076406e-11,
+              "total_mass": 0.9999999999999921
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.38693675899811064,
+              "safe_sentinel_mass_after_dynamics": 1.5417369863189413e-11,
+              "total_mass": 0.9999999999999911
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.4063779607549321,
+              "safe_sentinel_mass_after_dynamics": 1.971730784828238e-11,
+              "total_mass": 0.9999999999999901
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.4251282553164415,
+              "safe_sentinel_mass_after_dynamics": 2.4454552644425067e-11,
+              "total_mass": 0.9999999999999893
+            }
+          ],
+          "expected_water_abs_difference": 0.0,
+          "forward_expected_water": 0.0,
+          "forward_terminal_failure_mass": 0.4251282553164415,
+          "pass": true,
+          "risk_abs_difference": 3.885780586188048e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.0,
+            "risk": 2.1137069842969147e-05
+          },
+          "model_expected_water": 0.0,
+          "model_risk": 0.4251493923862806,
+          "reference_expected_water": 0.0,
+          "reference_risk": 0.4251282553164376
+        },
+        "intensity": 0.0,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.0,
+            "max_abs_error": 0.0,
+            "p95_abs_error": 0.0
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.0,
+            "max_abs_error_risk": 0.0001548457098338174,
+            "p95_abs_error_expected_water": 0.0,
+            "p95_abs_error_risk": 5.599898948571622e-06
+          },
+          "maximum_error_location": {
+            "abs_error": 0.000177706778679676,
+            "budget": 0.0,
+            "channel": "risk",
+            "day": 19,
+            "local_time": 0.75,
+            "water": 0.39749999999999996
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -5.358736962079932e-05
+          },
+          "risk": {
+            "initial_abs_error": 2.1137069842969147e-05,
+            "max_abs_error": 0.000177706778679676,
+            "p95_abs_error": 2.7395273969146717e-05
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.0353014738665296,
+          "lower_layer_p95_abs": 0.00014168467926772003,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.015105983862142514,
+          "ordinary_median_abs": 8.738272838054758e-11,
+          "ordinary_p95_abs": 5.504616484425679e-05,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260929
+        },
+        "policy": "zero",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 0.00022143205912333874,
+            "expected_water": 0.0,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.42534968737556095,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 4.42820616763373e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.42517253737811395,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 4.418233832959029e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.4251724376547672,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 4.428206167766957e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.4251725373781153,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260929,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 1.4110306122617664e-08,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "zero_lambda_0.12_seed_20260928",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 0.0,
+          "pass": true
+        },
+        "export_sha256": "289973c3981820f2a8d2b237ad50168788cfcab7ef53716e6cc8e1818328fead",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.0,
+          "backward_terminal_failure_risk": 0.6020798666645858,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0010201913598247554,
+              "safe_sentinel_mass_after_dynamics": 5.821180133947896e-16,
+              "total_mass": 1.0000000000000977
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 1,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.012724408881358824,
+              "safe_sentinel_mass_after_dynamics": 3.7491771422600633e-13,
+              "total_mass": 1.0000000000001905
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 2,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.04045957684821031,
+              "safe_sentinel_mass_after_dynamics": 1.2812001649958551e-11,
+              "total_mass": 1.00000000000028
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 3,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.07848781716766771,
+              "safe_sentinel_mass_after_dynamics": 1.264364360801975e-10,
+              "total_mass": 1.0000000000003655
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.12096973536671334,
+              "safe_sentinel_mass_after_dynamics": 6.339314026378459e-10,
+              "total_mass": 1.000000000000447
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.16448661856822605,
+              "safe_sentinel_mass_after_dynamics": 2.0928595670923465e-09,
+              "total_mass": 1.0000000000005242
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.20728886712815012,
+              "safe_sentinel_mass_after_dynamics": 5.231996152595325e-09,
+              "total_mass": 1.0000000000005975
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.24854020276372252,
+              "safe_sentinel_mass_after_dynamics": 1.076393473958954e-08,
+              "total_mass": 1.000000000000667
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2878794327491163,
+              "safe_sentinel_mass_after_dynamics": 1.9217785285117274e-08,
+              "total_mass": 1.0000000000007327
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.325189317497454,
+              "safe_sentinel_mass_after_dynamics": 3.085495238956235e-08,
+              "total_mass": 1.0000000000007951
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.3604763791285713,
+              "safe_sentinel_mass_after_dynamics": 4.5668114200508474e-08,
+              "total_mass": 1.0000000000008542
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.39380803531047753,
+              "safe_sentinel_mass_after_dynamics": 6.343279957184668e-08,
+              "total_mass": 1.0000000000009104
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.4252794624504797,
+              "safe_sentinel_mass_after_dynamics": 8.377878959378008e-08,
+              "total_mass": 1.0000000000009635
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.45499610052716016,
+              "safe_sentinel_mass_after_dynamics": 1.06258841951443e-07,
+              "total_mass": 1.000000000001014
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.48306451464845446,
+              "safe_sentinel_mass_after_dynamics": 1.3040369248643572e-07,
+              "total_mass": 1.000000000001062
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5095877749850656,
+              "safe_sentinel_mass_after_dynamics": 1.5576047133247451e-07,
+              "total_mass": 1.0000000000011073
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5346632941687133,
+              "safe_sentinel_mass_after_dynamics": 1.8191612789769768e-07,
+              "total_mass": 1.0000000000011506
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5583819972557719,
+              "safe_sentinel_mass_after_dynamics": 2.0850919944575692e-07,
+              "total_mass": 1.0000000000011917
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5808282024954078,
+              "safe_sentinel_mass_after_dynamics": 2.3523343742146864e-07,
+              "total_mass": 1.0000000000012308
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.6020798666645885,
+              "safe_sentinel_mass_after_dynamics": 2.618362746849973e-07,
+              "total_mass": 1.0000000000012674
+            }
+          ],
+          "expected_water_abs_difference": 0.0,
+          "forward_expected_water": 0.0,
+          "forward_terminal_failure_mass": 0.6020798666645885,
+          "pass": true,
+          "risk_abs_difference": 2.6645352591003757e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.0,
+            "risk": 0.00011287026802930811
+          },
+          "model_expected_water": 0.0,
+          "model_risk": 0.6021927369326151,
+          "reference_expected_water": 0.0,
+          "reference_risk": 0.6020798666645858
+        },
+        "intensity": 0.12,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.0,
+            "max_abs_error": 0.0,
+            "p95_abs_error": 0.0
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.0,
+            "max_abs_error_risk": 0.00012506966695902122,
+            "p95_abs_error_expected_water": 0.0,
+            "p95_abs_error_risk": 5.9759907030958935e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.00038643122113467265,
+            "budget": 0.0,
+            "channel": "risk",
+            "day": 19,
+            "local_time": 0.75,
+            "water": 0.42
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -9.793212253494596e-05
+          },
+          "risk": {
+            "initial_abs_error": 0.00011287026802930811,
+            "max_abs_error": 0.00038643122113467265,
+            "p95_abs_error": 0.00010389592531326245
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.053698502774279885,
+          "lower_layer_p95_abs": 0.0026925429040581847,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.015656088365244788,
+          "ordinary_median_abs": 1.46682460557164e-09,
+          "ordinary_p95_abs": 0.0004328278480162064,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260928
+        },
+        "policy": "zero",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 0.00036207655215247936,
+            "expected_water": 0.0,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.6024419432167383,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 6.749450784793165e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.6021473611724337,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 5.894699515485158e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.6021388136597406,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 6.74947229966083e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.6021473613875824,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260928,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 6.486643966407968e-08,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "zero_lambda_0.12_seed_20260929",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 0.0,
+          "pass": true
+        },
+        "export_sha256": "893c8c7e655d150197e5cf8c1a7bb05b7bb277392c2d984605f69c7c5860f0ee",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.0,
+          "backward_terminal_failure_risk": 0.6020798666645858,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0010201913598247554,
+              "safe_sentinel_mass_after_dynamics": 5.821180133947896e-16,
+              "total_mass": 1.0000000000000977
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 1,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.012724408881358824,
+              "safe_sentinel_mass_after_dynamics": 3.7491771422600633e-13,
+              "total_mass": 1.0000000000001905
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 2,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.04045957684821031,
+              "safe_sentinel_mass_after_dynamics": 1.2812001649958551e-11,
+              "total_mass": 1.00000000000028
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 3,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.07848781716766771,
+              "safe_sentinel_mass_after_dynamics": 1.264364360801975e-10,
+              "total_mass": 1.0000000000003655
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.12096973536671334,
+              "safe_sentinel_mass_after_dynamics": 6.339314026378459e-10,
+              "total_mass": 1.000000000000447
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.16448661856822605,
+              "safe_sentinel_mass_after_dynamics": 2.0928595670923465e-09,
+              "total_mass": 1.0000000000005242
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.20728886712815012,
+              "safe_sentinel_mass_after_dynamics": 5.231996152595325e-09,
+              "total_mass": 1.0000000000005975
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.24854020276372252,
+              "safe_sentinel_mass_after_dynamics": 1.076393473958954e-08,
+              "total_mass": 1.000000000000667
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2878794327491163,
+              "safe_sentinel_mass_after_dynamics": 1.9217785285117274e-08,
+              "total_mass": 1.0000000000007327
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.325189317497454,
+              "safe_sentinel_mass_after_dynamics": 3.085495238956235e-08,
+              "total_mass": 1.0000000000007951
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.3604763791285713,
+              "safe_sentinel_mass_after_dynamics": 4.5668114200508474e-08,
+              "total_mass": 1.0000000000008542
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.39380803531047753,
+              "safe_sentinel_mass_after_dynamics": 6.343279957184668e-08,
+              "total_mass": 1.0000000000009104
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.4252794624504797,
+              "safe_sentinel_mass_after_dynamics": 8.377878959378008e-08,
+              "total_mass": 1.0000000000009635
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.45499610052716016,
+              "safe_sentinel_mass_after_dynamics": 1.06258841951443e-07,
+              "total_mass": 1.000000000001014
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.48306451464845446,
+              "safe_sentinel_mass_after_dynamics": 1.3040369248643572e-07,
+              "total_mass": 1.000000000001062
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5095877749850656,
+              "safe_sentinel_mass_after_dynamics": 1.5576047133247451e-07,
+              "total_mass": 1.0000000000011073
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5346632941687133,
+              "safe_sentinel_mass_after_dynamics": 1.8191612789769768e-07,
+              "total_mass": 1.0000000000011506
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5583819972557719,
+              "safe_sentinel_mass_after_dynamics": 2.0850919944575692e-07,
+              "total_mass": 1.0000000000011917
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.5808282024954078,
+              "safe_sentinel_mass_after_dynamics": 2.3523343742146864e-07,
+              "total_mass": 1.0000000000012308
+            },
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.6020798666645885,
+              "safe_sentinel_mass_after_dynamics": 2.618362746849973e-07,
+              "total_mass": 1.0000000000012674
+            }
+          ],
+          "expected_water_abs_difference": 0.0,
+          "forward_expected_water": 0.0,
+          "forward_terminal_failure_mass": 0.6020798666645885,
+          "pass": true,
+          "risk_abs_difference": 2.6645352591003757e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.0,
+            "risk": 0.000210395375182304
+          },
+          "model_expected_water": 0.0,
+          "model_risk": 0.6022902620397681,
+          "reference_expected_water": 0.0,
+          "reference_risk": 0.6020798666645858
+        },
+        "intensity": 0.12,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.0,
+            "max_abs_error": 0.0,
+            "p95_abs_error": 0.0
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.0,
+            "max_abs_error_risk": 0.00012475804697498205,
+            "p95_abs_error_expected_water": 0.0,
+            "p95_abs_error_risk": 4.7372576759424616e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0003679297107321705,
+            "budget": 0.0,
+            "channel": "risk",
+            "day": 19,
+            "local_time": 0.75,
+            "water": 0.42
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -7.151077943489889e-05
+          },
+          "risk": {
+            "initial_abs_error": 0.000210395375182304,
+            "max_abs_error": 0.0003679297107321705,
+            "p95_abs_error": 0.00011552150733139392
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.07467608701462668,
+          "lower_layer_p95_abs": 0.001873026288780876,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.016077693238948743,
+          "ordinary_median_abs": 9.74059412729017e-09,
+          "ordinary_p95_abs": 0.0005300403445062157,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260929
+        },
+        "policy": "zero",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 0.00036207655215247936,
+            "expected_water": 0.0,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.6024419432167383,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 6.749450784793165e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.6021473611724337,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 5.894699515485158e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.6021388136597406,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.0,
+            "abs_difference_risk": 6.74947229966083e-05,
+            "expected_water": 0.0,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.6021473613875824,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260929,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 2.317383973604592e-08,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "schedule_lambda_0_seed_20260928",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "e875e3311dbe755e9107f11a1b96afeb02f1e5eea5c1787ee85c70ede7b52571",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.2999995906271207,
+          "backward_terminal_failure_risk": 0.15161764404226855,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.08,
+              "day": 0,
+              "expected_positive_action_count": 1.0,
+              "expected_water_pulse": 0.08,
+              "failure_mass_after_dynamics": 4.6650153099214164e-08,
+              "safe_sentinel_mass_after_dynamics": 9.979985800466329e-52,
+              "total_mass": 0.9999999999999974
+            },
+            {
+              "cumulative_expected_water": 0.1599999962679876,
+              "day": 1,
+              "expected_positive_action_count": 0.9999999533498448,
+              "expected_water_pulse": 0.0799999962679876,
+              "failure_mass_after_dynamics": 1.7009083719531423e-06,
+              "safe_sentinel_mass_after_dynamics": 1.6714137144041464e-25,
+              "total_mass": 0.9999999999999748
+            },
+            {
+              "cumulative_expected_water": 0.23999986019531588,
+              "day": 2,
+              "expected_positive_action_count": 0.9999982990916023,
+              "expected_water_pulse": 0.07999986392732827,
+              "failure_mass_after_dynamics": 4.492803203539412e-06,
+              "safe_sentinel_mass_after_dynamics": 2.0049883028177285e-16,
+              "total_mass": 0.9999999999999537
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 3,
+              "expected_positive_action_count": 0.99999550719675,
+              "expected_water_pulse": 0.05999973043180496,
+              "failure_mass_after_dynamics": 9.95394984313629e-06,
+              "safe_sentinel_mass_after_dynamics": 2.2843585275607566e-12,
+              "total_mass": 0.9999999999999339
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 8.002422151660838e-05,
+              "safe_sentinel_mass_after_dynamics": 2.372048205729157e-11,
+              "total_mass": 0.9999999999999146
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.00040998766297513644,
+              "safe_sentinel_mass_after_dynamics": 1.0320682980206986e-10,
+              "total_mass": 0.9999999999998966
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0013504572460991693,
+              "safe_sentinel_mass_after_dynamics": 2.7547216451768537e-10,
+              "total_mass": 0.9999999999998802
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.003324587717670274,
+              "safe_sentinel_mass_after_dynamics": 5.449781174366003e-10,
+              "total_mass": 0.9999999999998651
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0067218177176652716,
+              "safe_sentinel_mass_after_dynamics": 8.876721725514675e-10,
+              "total_mass": 0.9999999999998517
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.011828142438680697,
+              "safe_sentinel_mass_after_dynamics": 1.267739835572187e-09,
+              "total_mass": 0.9999999999998397
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0188024873514784,
+              "safe_sentinel_mass_after_dynamics": 1.651995926339327e-09,
+              "total_mass": 0.9999999999998287
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.027684820776836056,
+              "safe_sentinel_mass_after_dynamics": 2.016524609490544e-09,
+              "total_mass": 0.999999999999819
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.03841943614479085,
+              "safe_sentinel_mass_after_dynamics": 2.347425561799622e-09,
+              "total_mass": 0.9999999999998105
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.050882021081117314,
+              "safe_sentinel_mass_after_dynamics": 2.638805610836984e-09,
+              "total_mass": 0.9999999999998027
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.06490449791461389,
+              "safe_sentinel_mass_after_dynamics": 2.890150045772629e-09,
+              "total_mass": 0.9999999999997958
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.08029524607457231,
+              "safe_sentinel_mass_after_dynamics": 3.1040599609754506e-09,
+              "total_mass": 0.9999999999997896
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0968543140601612,
+              "safe_sentinel_mass_after_dynamics": 3.2846302704463945e-09,
+              "total_mass": 0.9999999999997845
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.11438414845529263,
+              "safe_sentinel_mass_after_dynamics": 3.436419543408336e-09,
+              "total_mass": 0.9999999999997793
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.13269668258405146,
+              "safe_sentinel_mass_after_dynamics": 3.563863129308578e-09,
+              "total_mass": 0.999999999999775
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.15161764404227165,
+              "safe_sentinel_mass_after_dynamics": 3.670981414033415e-09,
+              "total_mass": 0.999999999999771
+            }
+          ],
+          "expected_water_abs_difference": 1.1102230246251565e-16,
+          "forward_expected_water": 0.29999959062712084,
+          "forward_terminal_failure_mass": 0.15161764404227165,
+          "pass": true,
+          "risk_abs_difference": 3.1086244689504383e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.00011624060917353463,
+            "risk": 6.552816153568286e-05
+          },
+          "model_expected_water": 0.30011583123629426,
+          "model_risk": 0.15155211588073286,
+          "reference_expected_water": 0.2999995906271207,
+          "reference_risk": 0.15161764404226855
+        },
+        "intensity": 0.0,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.00011624060917353463,
+            "max_abs_error": 0.0008616449976719676,
+            "p95_abs_error": 9.386704232756948e-05
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.00033257290451502164,
+            "max_abs_error_risk": 0.00014409622580746628,
+            "p95_abs_error_expected_water": 3.941325967010023e-05,
+            "p95_abs_error_risk": 1.4135668773396226e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0008616449976719676,
+            "budget": 0.3,
+            "channel": "expected_water",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 1.3825000000000003
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -6.958575269583323e-05
+          },
+          "risk": {
+            "initial_abs_error": 6.552816153568286e-05,
+            "max_abs_error": 0.00015186857353548027,
+            "p95_abs_error": 3.189072052571245e-05
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.029099236719512867,
+          "lower_layer_p95_abs": 0.0015522068948131203,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.04731265443085652,
+          "ordinary_median_abs": 1.7773026108074128e-07,
+          "ordinary_p95_abs": 0.00036887886433790165,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260928
+        },
+        "policy": "schedule",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 1.1698774587953764e-07,
+            "abs_difference_risk": 0.0002467944770794539,
+            "expected_water": 0.29999947363937485,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.151864438519348,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 2.2002591582026554e-08,
+            "abs_difference_risk": 4.9355928177730046e-05,
+            "expected_water": 0.29999956862452914,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.15166699997044628,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 2.2002591193448495e-08,
+            "abs_difference_risk": 8.321988032497507e-05,
+            "expected_water": 0.29999956862452953,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.15153442416194357,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 2.200259191509346e-08,
+            "abs_difference_risk": 4.935592840757397e-05,
+            "expected_water": 0.2999995686245288,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.15166699997067612,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260928,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 7.948270617633146e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "schedule_lambda_0_seed_20260929",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "49e495c3732b4dfb212d45363c95ec4bd65b9af7b704650e064660ffb3dffb7b",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.2999995906271207,
+          "backward_terminal_failure_risk": 0.15161764404226855,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.08,
+              "day": 0,
+              "expected_positive_action_count": 1.0,
+              "expected_water_pulse": 0.08,
+              "failure_mass_after_dynamics": 4.6650153099214164e-08,
+              "safe_sentinel_mass_after_dynamics": 9.979985800466329e-52,
+              "total_mass": 0.9999999999999974
+            },
+            {
+              "cumulative_expected_water": 0.1599999962679876,
+              "day": 1,
+              "expected_positive_action_count": 0.9999999533498448,
+              "expected_water_pulse": 0.0799999962679876,
+              "failure_mass_after_dynamics": 1.7009083719531423e-06,
+              "safe_sentinel_mass_after_dynamics": 1.6714137144041464e-25,
+              "total_mass": 0.9999999999999748
+            },
+            {
+              "cumulative_expected_water": 0.23999986019531588,
+              "day": 2,
+              "expected_positive_action_count": 0.9999982990916023,
+              "expected_water_pulse": 0.07999986392732827,
+              "failure_mass_after_dynamics": 4.492803203539412e-06,
+              "safe_sentinel_mass_after_dynamics": 2.0049883028177285e-16,
+              "total_mass": 0.9999999999999537
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 3,
+              "expected_positive_action_count": 0.99999550719675,
+              "expected_water_pulse": 0.05999973043180496,
+              "failure_mass_after_dynamics": 9.95394984313629e-06,
+              "safe_sentinel_mass_after_dynamics": 2.2843585275607566e-12,
+              "total_mass": 0.9999999999999339
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 8.002422151660838e-05,
+              "safe_sentinel_mass_after_dynamics": 2.372048205729157e-11,
+              "total_mass": 0.9999999999999146
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.00040998766297513644,
+              "safe_sentinel_mass_after_dynamics": 1.0320682980206986e-10,
+              "total_mass": 0.9999999999998966
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0013504572460991693,
+              "safe_sentinel_mass_after_dynamics": 2.7547216451768537e-10,
+              "total_mass": 0.9999999999998802
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.003324587717670274,
+              "safe_sentinel_mass_after_dynamics": 5.449781174366003e-10,
+              "total_mass": 0.9999999999998651
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0067218177176652716,
+              "safe_sentinel_mass_after_dynamics": 8.876721725514675e-10,
+              "total_mass": 0.9999999999998517
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.011828142438680697,
+              "safe_sentinel_mass_after_dynamics": 1.267739835572187e-09,
+              "total_mass": 0.9999999999998397
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0188024873514784,
+              "safe_sentinel_mass_after_dynamics": 1.651995926339327e-09,
+              "total_mass": 0.9999999999998287
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.027684820776836056,
+              "safe_sentinel_mass_after_dynamics": 2.016524609490544e-09,
+              "total_mass": 0.999999999999819
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.03841943614479085,
+              "safe_sentinel_mass_after_dynamics": 2.347425561799622e-09,
+              "total_mass": 0.9999999999998105
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.050882021081117314,
+              "safe_sentinel_mass_after_dynamics": 2.638805610836984e-09,
+              "total_mass": 0.9999999999998027
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.06490449791461389,
+              "safe_sentinel_mass_after_dynamics": 2.890150045772629e-09,
+              "total_mass": 0.9999999999997958
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.08029524607457231,
+              "safe_sentinel_mass_after_dynamics": 3.1040599609754506e-09,
+              "total_mass": 0.9999999999997896
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0968543140601612,
+              "safe_sentinel_mass_after_dynamics": 3.2846302704463945e-09,
+              "total_mass": 0.9999999999997845
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.11438414845529263,
+              "safe_sentinel_mass_after_dynamics": 3.436419543408336e-09,
+              "total_mass": 0.9999999999997793
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.13269668258405146,
+              "safe_sentinel_mass_after_dynamics": 3.563863129308578e-09,
+              "total_mass": 0.999999999999775
+            },
+            {
+              "cumulative_expected_water": 0.29999959062712084,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.15161764404227165,
+              "safe_sentinel_mass_after_dynamics": 3.670981414033415e-09,
+              "total_mass": 0.999999999999771
+            }
+          ],
+          "expected_water_abs_difference": 1.1102230246251565e-16,
+          "forward_expected_water": 0.29999959062712084,
+          "forward_terminal_failure_mass": 0.15161764404227165,
+          "pass": true,
+          "risk_abs_difference": 3.1086244689504383e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.00014628921385811955,
+            "risk": 2.898701673834103e-05
+          },
+          "model_expected_water": 0.30014587984097885,
+          "model_risk": 0.1516466310590069,
+          "reference_expected_water": 0.2999995906271207,
+          "reference_risk": 0.15161764404226855
+        },
+        "intensity": 0.0,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.00014628921385811955,
+            "max_abs_error": 0.0021504300601496995,
+            "p95_abs_error": 0.0001784589494229151
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.00048044906497471396,
+            "max_abs_error_risk": 0.0001548457098338174,
+            "p95_abs_error_expected_water": 3.991244615199545e-05,
+            "p95_abs_error_risk": 1.659109470897313e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0021504300601496995,
+            "budget": 0.3,
+            "channel": "expected_water",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 1.4175
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -5.358736962079932e-05
+          },
+          "risk": {
+            "initial_abs_error": 2.898701673834103e-05,
+            "max_abs_error": 0.000177706778679676,
+            "p95_abs_error": 3.0430024172189788e-05
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.0404120369049147,
+          "lower_layer_p95_abs": 0.0017892450818878891,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.05714631217423545,
+          "ordinary_median_abs": 1.0892204608484862e-07,
+          "ordinary_p95_abs": 0.0004854478105294074,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260929
+        },
+        "policy": "schedule",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 1.1698774587953764e-07,
+            "abs_difference_risk": 0.0002467944770794539,
+            "expected_water": 0.29999947363937485,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.151864438519348,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 2.2002591582026554e-08,
+            "abs_difference_risk": 4.9355928177730046e-05,
+            "expected_water": 0.29999956862452914,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.15166699997044628,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 2.2002591193448495e-08,
+            "abs_difference_risk": 8.321988032497507e-05,
+            "expected_water": 0.29999956862452953,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.15153442416194357,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 2.200259191509346e-08,
+            "abs_difference_risk": 4.935592840757397e-05,
+            "expected_water": 0.2999995686245288,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.15166699997067612,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260929,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 3.5239992087904293e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "schedule_lambda_0.12_seed_20260928",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "8a7c5607513fccf66e0c0f00a63867f2776b21f5667546897649c84cadefc932",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.29994664605118243,
+          "backward_terminal_failure_risk": 0.3234068013013891,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.08,
+              "day": 0,
+              "expected_positive_action_count": 1.0,
+              "expected_water_pulse": 0.08,
+              "failure_mass_after_dynamics": 8.254416936816747e-05,
+              "safe_sentinel_mass_after_dynamics": 6.471457576658142e-14,
+              "total_mass": 1.0000000000001015
+            },
+            {
+              "cumulative_expected_water": 0.1599933964664535,
+              "day": 1,
+              "expected_positive_action_count": 0.9999174558306684,
+              "expected_water_pulse": 0.0799933964664535,
+              "failure_mass_after_dynamics": 0.0002633249834155677,
+              "safe_sentinel_mass_after_dynamics": 2.6206190687671754e-10,
+              "total_mass": 1.000000000000196
+            },
+            {
+              "cumulative_expected_water": 0.23997233044683094,
+              "day": 2,
+              "expected_positive_action_count": 0.9997366747547185,
+              "expected_water_pulse": 0.07997893398037745,
+              "failure_mass_after_dynamics": 0.0004280370972511536,
+              "safe_sentinel_mass_after_dynamics": 3.616385201992146e-08,
+              "total_mass": 1.0000000000002929
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 3,
+              "expected_positive_action_count": 0.9995719267391899,
+              "expected_water_pulse": 0.05997431560435136,
+              "failure_mass_after_dynamics": 0.0006486518321677183,
+              "safe_sentinel_mass_after_dynamics": 6.376884642511117e-07,
+              "total_mass": 1.0000000000003917
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0018972179043207078,
+              "safe_sentinel_mass_after_dynamics": 1.5586732021262073e-06,
+              "total_mass": 1.0000000000004892
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.005167993225516179,
+              "safe_sentinel_mass_after_dynamics": 2.7106786620977976e-06,
+              "total_mass": 1.000000000000586
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.011369413766670108,
+              "safe_sentinel_mass_after_dynamics": 3.941706382570829e-06,
+              "total_mass": 1.0000000000006815
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.021079280939700965,
+              "safe_sentinel_mass_after_dynamics": 5.141682076685119e-06,
+              "total_mass": 1.0000000000007758
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.03449427900085677,
+              "safe_sentinel_mass_after_dynamics": 6.246527830793267e-06,
+              "total_mass": 1.0000000000008682
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.05149314749778736,
+              "safe_sentinel_mass_after_dynamics": 7.227272764614205e-06,
+              "total_mass": 1.0000000000009588
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.07173708648635951,
+              "safe_sentinel_mass_after_dynamics": 8.077533584665153e-06,
+              "total_mass": 1.000000000001047
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.09476468912055779,
+              "safe_sentinel_mass_after_dynamics": 8.80367209493744e-06,
+              "total_mass": 1.0000000000011326
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.12006537387505946,
+              "safe_sentinel_mass_after_dynamics": 9.418185958681178e-06,
+              "total_mass": 1.000000000001216
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.14712954769407072,
+              "safe_sentinel_mass_after_dynamics": 9.935695528598583e-06,
+              "total_mass": 1.0000000000012965
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.17547939042643465,
+              "safe_sentinel_mass_after_dynamics": 1.0370716576819189e-05,
+              "total_mass": 1.0000000000013738
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.20468540084513104,
+              "safe_sentinel_mass_after_dynamics": 1.0736557137397833e-05,
+              "total_mass": 1.0000000000014484
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2343732955715416,
+              "safe_sentinel_mass_after_dynamics": 1.1044875853868523e-05,
+              "total_mass": 1.0000000000015203
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2642247979227764,
+              "safe_sentinel_mass_after_dynamics": 1.1305604421101879e-05,
+              "total_mass": 1.0000000000015894
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2939748302512307,
+              "safe_sentinel_mass_after_dynamics": 1.1527053562378264e-05,
+              "total_mass": 1.0000000000016551
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.32340680130139254,
+              "safe_sentinel_mass_after_dynamics": 1.1716098163355897e-05,
+              "total_mass": 1.0000000000017186
+            }
+          ],
+          "expected_water_abs_difference": 1.1102230246251565e-16,
+          "forward_expected_water": 0.2999466460511823,
+          "forward_terminal_failure_mass": 0.32340680130139254,
+          "pass": true,
+          "risk_abs_difference": 3.4416913763379853e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.0001473269121189391,
+            "risk": 0.00023208153648551777
+          },
+          "model_expected_water": 0.30009397296330137,
+          "model_risk": 0.3231747197649036,
+          "reference_expected_water": 0.29994664605118243,
+          "reference_risk": 0.3234068013013891
+        },
+        "intensity": 0.12,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.0001473269121189391,
+            "max_abs_error": 0.0008230454917273478,
+            "p95_abs_error": 8.955924630804635e-05
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.0003109115471182644,
+            "max_abs_error_risk": 0.00014951611042690605,
+            "p95_abs_error_expected_water": 4.1864073774499494e-05,
+            "p95_abs_error_risk": 6.241289179463301e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0008230454917273478,
+            "budget": 0.3,
+            "channel": "expected_water",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 1.3825000000000003
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -9.793212253494596e-05
+          },
+          "risk": {
+            "initial_abs_error": 0.00023208153648551777,
+            "max_abs_error": 0.00038643122113467265,
+            "p95_abs_error": 0.00011086802057891087
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.053698502774279885,
+          "lower_layer_p95_abs": 0.003383373373153234,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.07086782085216893,
+          "ordinary_median_abs": 8.579110513131944e-06,
+          "ordinary_p95_abs": 0.0008210858512216759,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260928
+        },
+        "policy": "schedule",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 3.1339063642499276e-06,
+            "abs_difference_risk": 0.00042765417124918104,
+            "expected_water": 0.2999435121448182,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.3238344554726383,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 6.136170885850945e-07,
+            "abs_difference_risk": 8.140618870011718e-05,
+            "expected_water": 0.29994603243409385,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.3234882074900892,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 6.114179307847856e-07,
+            "abs_difference_risk": 0.0013890060385964853,
+            "expected_water": 0.29994603463325165,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.3220177952627926,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 6.123158710069632e-07,
+            "abs_difference_risk": 8.151458859184668e-05,
+            "expected_water": 0.2999460337353114,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.32348831588998095,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260928,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 8.154436204874105e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "schedule_lambda_0.12_seed_20260929",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "548de1a47e2a915c2b8f8de5d86911b0425520db079746183978676157cc07c5",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.29994664605118243,
+          "backward_terminal_failure_risk": 0.3234068013013891,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.08,
+              "day": 0,
+              "expected_positive_action_count": 1.0,
+              "expected_water_pulse": 0.08,
+              "failure_mass_after_dynamics": 8.254416936816747e-05,
+              "safe_sentinel_mass_after_dynamics": 6.471457576658142e-14,
+              "total_mass": 1.0000000000001015
+            },
+            {
+              "cumulative_expected_water": 0.1599933964664535,
+              "day": 1,
+              "expected_positive_action_count": 0.9999174558306684,
+              "expected_water_pulse": 0.0799933964664535,
+              "failure_mass_after_dynamics": 0.0002633249834155677,
+              "safe_sentinel_mass_after_dynamics": 2.6206190687671754e-10,
+              "total_mass": 1.000000000000196
+            },
+            {
+              "cumulative_expected_water": 0.23997233044683094,
+              "day": 2,
+              "expected_positive_action_count": 0.9997366747547185,
+              "expected_water_pulse": 0.07997893398037745,
+              "failure_mass_after_dynamics": 0.0004280370972511536,
+              "safe_sentinel_mass_after_dynamics": 3.616385201992146e-08,
+              "total_mass": 1.0000000000002929
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 3,
+              "expected_positive_action_count": 0.9995719267391899,
+              "expected_water_pulse": 0.05997431560435136,
+              "failure_mass_after_dynamics": 0.0006486518321677183,
+              "safe_sentinel_mass_after_dynamics": 6.376884642511117e-07,
+              "total_mass": 1.0000000000003917
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 4,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0018972179043207078,
+              "safe_sentinel_mass_after_dynamics": 1.5586732021262073e-06,
+              "total_mass": 1.0000000000004892
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 5,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.005167993225516179,
+              "safe_sentinel_mass_after_dynamics": 2.7106786620977976e-06,
+              "total_mass": 1.000000000000586
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 6,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.011369413766670108,
+              "safe_sentinel_mass_after_dynamics": 3.941706382570829e-06,
+              "total_mass": 1.0000000000006815
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 7,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.021079280939700965,
+              "safe_sentinel_mass_after_dynamics": 5.141682076685119e-06,
+              "total_mass": 1.0000000000007758
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 8,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.03449427900085677,
+              "safe_sentinel_mass_after_dynamics": 6.246527830793267e-06,
+              "total_mass": 1.0000000000008682
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 9,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.05149314749778736,
+              "safe_sentinel_mass_after_dynamics": 7.227272764614205e-06,
+              "total_mass": 1.0000000000009588
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 10,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.07173708648635951,
+              "safe_sentinel_mass_after_dynamics": 8.077533584665153e-06,
+              "total_mass": 1.000000000001047
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 11,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.09476468912055779,
+              "safe_sentinel_mass_after_dynamics": 8.80367209493744e-06,
+              "total_mass": 1.0000000000011326
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 12,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.12006537387505946,
+              "safe_sentinel_mass_after_dynamics": 9.418185958681178e-06,
+              "total_mass": 1.000000000001216
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 13,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.14712954769407072,
+              "safe_sentinel_mass_after_dynamics": 9.935695528598583e-06,
+              "total_mass": 1.0000000000012965
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 14,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.17547939042643465,
+              "safe_sentinel_mass_after_dynamics": 1.0370716576819189e-05,
+              "total_mass": 1.0000000000013738
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 15,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.20468540084513104,
+              "safe_sentinel_mass_after_dynamics": 1.0736557137397833e-05,
+              "total_mass": 1.0000000000014484
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 16,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2343732955715416,
+              "safe_sentinel_mass_after_dynamics": 1.1044875853868523e-05,
+              "total_mass": 1.0000000000015203
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 17,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2642247979227764,
+              "safe_sentinel_mass_after_dynamics": 1.1305604421101879e-05,
+              "total_mass": 1.0000000000015894
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 18,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.2939748302512307,
+              "safe_sentinel_mass_after_dynamics": 1.1527053562378264e-05,
+              "total_mass": 1.0000000000016551
+            },
+            {
+              "cumulative_expected_water": 0.2999466460511823,
+              "day": 19,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.32340680130139254,
+              "safe_sentinel_mass_after_dynamics": 1.1716098163355897e-05,
+              "total_mass": 1.0000000000017186
+            }
+          ],
+          "expected_water_abs_difference": 1.1102230246251565e-16,
+          "forward_expected_water": 0.2999466460511823,
+          "forward_terminal_failure_mass": 0.32340680130139254,
+          "pass": true,
+          "risk_abs_difference": 3.4416913763379853e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.0001971817641705509,
+            "risk": 1.0259949791757705e-05
+          },
+          "model_expected_water": 0.300143827815353,
+          "model_risk": 0.32341706125118086,
+          "reference_expected_water": 0.29994664605118243,
+          "reference_risk": 0.3234068013013891
+        },
+        "intensity": 0.12,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.0001971817641705509,
+            "max_abs_error": 0.0020766294022247223,
+            "p95_abs_error": 0.00017376088590789762
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.00041106888303871214,
+            "max_abs_error_risk": 0.0002007282272655786,
+            "p95_abs_error_expected_water": 3.675600992299687e-05,
+            "p95_abs_error_risk": 6.216276150217137e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0020766294022247223,
+            "budget": 0.3,
+            "channel": "expected_water",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 1.4175
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -7.151077943489889e-05
+          },
+          "risk": {
+            "initial_abs_error": 1.0259949791757705e-05,
+            "max_abs_error": 0.0006601536207632569,
+            "p95_abs_error": 0.00010307793593403724
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.07467608701462668,
+          "lower_layer_p95_abs": 0.0026626790755711564,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.07350596385102354,
+          "ordinary_median_abs": 1.3582845428462888e-05,
+          "ordinary_p95_abs": 0.001038719181891491,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260929
+        },
+        "policy": "schedule",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 3.1339063642499276e-06,
+            "abs_difference_risk": 0.00042765417124918104,
+            "expected_water": 0.2999435121448182,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.3238344554726383,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 6.136170885850945e-07,
+            "abs_difference_risk": 8.140618870011718e-05,
+            "expected_water": 0.29994603243409385,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.3234882074900892,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 6.114179307847856e-07,
+            "abs_difference_risk": 0.0013890060385964853,
+            "expected_water": 0.29994603463325165,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.3220177952627926,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 6.123158710069632e-07,
+            "abs_difference_risk": 8.151458859184668e-05,
+            "expected_water": 0.2999460337353114,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.32348831588998095,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260929,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 4.60404644646111e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "buffer_lambda_0_seed_20260928",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "66d1ff50768b5814a8fdeb424bc1b3b6d0e07f75712c2ec4490b20e561ccb598",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.08330032227644414,
+          "backward_terminal_failure_risk": 0.15124104311856862,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 2.8387941553501596e-05,
+              "safe_sentinel_mass_after_dynamics": 3.823923947244756e-60,
+              "total_mass": 0.9999999999999973
+            },
+            {
+              "cumulative_expected_water": 0.00045146008201256036,
+              "day": 1,
+              "expected_positive_action_count": 0.0056432510251570025,
+              "expected_water_pulse": 0.00045146008201256036,
+              "failure_mass_after_dynamics": 0.0021265162890916852,
+              "safe_sentinel_mass_after_dynamics": 2.0411073414118217e-34,
+              "total_mass": 0.9999999999999984
+            },
+            {
+              "cumulative_expected_water": 0.00294478803981924,
+              "day": 2,
+              "expected_positive_action_count": 0.031166599472583493,
+              "expected_water_pulse": 0.00249332795780668,
+              "failure_mass_after_dynamics": 0.007239893122186895,
+              "safe_sentinel_mass_after_dynamics": 1.5056768340149404e-25,
+              "total_mass": 0.9999999999999988
+            },
+            {
+              "cumulative_expected_water": 0.006899969238920412,
+              "day": 3,
+              "expected_positive_action_count": 0.04943976498876464,
+              "expected_water_pulse": 0.003955181199101172,
+              "failure_mass_after_dynamics": 0.014043538591764874,
+              "safe_sentinel_mass_after_dynamics": 4.085193325321066e-21,
+              "total_mass": 0.9999999999999989
+            },
+            {
+              "cumulative_expected_water": 0.011590372040932256,
+              "day": 4,
+              "expected_positive_action_count": 0.05863421717728023,
+              "expected_water_pulse": 0.004690402802011843,
+              "failure_mass_after_dynamics": 0.0216682308974196,
+              "safe_sentinel_mass_after_dynamics": 1.76269041850032e-18,
+              "total_mass": 0.9999999999999988
+            },
+            {
+              "cumulative_expected_water": 0.016626339980576613,
+              "day": 5,
+              "expected_positive_action_count": 0.06299011413421117,
+              "expected_water_pulse": 0.0050359679396443586,
+              "failure_mass_after_dynamics": 0.029677304811456796,
+              "safe_sentinel_mass_after_dynamics": 9.490158858762422e-17,
+              "total_mass": 0.9999999999999983
+            },
+            {
+              "cumulative_expected_water": 0.02180762328033125,
+              "day": 6,
+              "expected_positive_action_count": 0.06489243098186125,
+              "expected_water_pulse": 0.005181283299754635,
+              "failure_mass_after_dynamics": 0.0378609006884238,
+              "safe_sentinel_mass_after_dynamics": 1.5534137189888744e-15,
+              "total_mass": 0.9999999999999977
+            },
+            {
+              "cumulative_expected_water": 0.027026422358391308,
+              "day": 7,
+              "expected_positive_action_count": 0.06549085114568141,
+              "expected_water_pulse": 0.005218799078060058,
+              "failure_mass_after_dynamics": 0.046126767825357046,
+              "safe_sentinel_mass_after_dynamics": 1.2095539161914629e-14,
+              "total_mass": 0.999999999999997
+            },
+            {
+              "cumulative_expected_water": 0.03222168411121867,
+              "day": 8,
+              "expected_positive_action_count": 0.0653536084804794,
+              "expected_water_pulse": 0.0051952617528273565,
+              "failure_mass_after_dynamics": 0.054443496301509894,
+              "safe_sentinel_mass_after_dynamics": 5.750109336467297e-14,
+              "total_mass": 0.9999999999999962
+            },
+            {
+              "cumulative_expected_water": 0.037357544111735815,
+              "day": 9,
+              "expected_positive_action_count": 0.06477991439634058,
+              "expected_water_pulse": 0.005135860000517145,
+              "failure_mass_after_dynamics": 0.062809237341658,
+              "safe_sentinel_mass_after_dynamics": 1.939262304352867e-13,
+              "total_mass": 0.9999999999999956
+            },
+            {
+              "cumulative_expected_water": 0.04241255900835249,
+              "day": 10,
+              "expected_positive_action_count": 0.06393852876849544,
+              "expected_water_pulse": 0.00505501489661667,
+              "failure_mass_after_dynamics": 0.0712344538237552,
+              "safe_sentinel_mass_after_dynamics": 5.105839269744384e-13,
+              "total_mass": 0.9999999999999946
+            },
+            {
+              "cumulative_expected_water": 0.0473739537549558,
+              "day": 11,
+              "expected_positive_action_count": 0.06293054734517657,
+              "expected_water_pulse": 0.004961394746603315,
+              "failure_mass_after_dynamics": 0.07973285102742267,
+              "safe_sentinel_mass_after_dynamics": 1.118668994736725e-12,
+              "total_mass": 0.9999999999999936
+            },
+            {
+              "cumulative_expected_water": 0.052234351549523245,
+              "day": 12,
+              "expected_positive_action_count": 0.06181943240448337,
+              "expected_water_pulse": 0.0048603977945674455,
+              "failure_mass_after_dynamics": 0.08831701187745836,
+              "safe_sentinel_mass_after_dynamics": 2.131778757810069e-12,
+              "total_mass": 0.9999999999999927
+            },
+            {
+              "cumulative_expected_water": 0.056989817682362276,
+              "day": 13,
+              "expected_positive_action_count": 0.0606463719275586,
+              "expected_water_pulse": 0.004755466132839028,
+              "failure_mass_after_dynamics": 0.09699662071259296,
+              "safe_sentinel_mass_after_dynamics": 3.64662814640453e-12,
+              "total_mass": 0.9999999999999917
+            },
+            {
+              "cumulative_expected_water": 0.06163864245855785,
+              "day": 14,
+              "expected_positive_action_count": 0.05943869118594303,
+              "expected_water_pulse": 0.004648824776195579,
+              "failure_mass_after_dynamics": 0.10577802687147791,
+              "safe_sentinel_mass_after_dynamics": 5.730278385649554e-12,
+              "total_mass": 0.9999999999999907
+            },
+            {
+              "cumulative_expected_water": 0.06618056174384149,
+              "day": 15,
+              "expected_positive_action_count": 0.0582147546903967,
+              "expected_water_pulse": 0.004541919285283637,
+              "failure_mass_after_dynamics": 0.11466444272490342,
+              "safe_sentinel_mass_after_dynamics": 8.415613355082746e-12,
+              "total_mass": 0.9999999999999898
+            },
+            {
+              "cumulative_expected_water": 0.07061624748222814,
+              "day": 16,
+              "expected_positive_action_count": 0.05698697497925467,
+              "expected_water_pulse": 0.004435685738386657,
+              "failure_mass_after_dynamics": 0.12365639620444013,
+              "safe_sentinel_mass_after_dynamics": 1.1703555565739882e-11,
+              "total_mass": 0.9999999999999886
+            },
+            {
+              "cumulative_expected_water": 0.07494697012518767,
+              "day": 17,
+              "expected_positive_action_count": 0.05576373633309604,
+              "expected_water_pulse": 0.004330722642959528,
+              "failure_mass_after_dynamics": 0.13275224452749557,
+              "safe_sentinel_mass_after_dynamics": 1.556927572431407e-11,
+              "total_mass": 0.9999999999999876
+            },
+            {
+              "cumulative_expected_water": 0.07917437319053064,
+              "day": 18,
+              "expected_positive_action_count": 0.05455066327194825,
+              "expected_water_pulse": 0.004227403065342967,
+              "failure_mass_after_dynamics": 0.14194865873325774,
+              "safe_sentinel_mass_after_dynamics": 1.9969835287977526e-11,
+              "total_mass": 0.9999999999999865
+            },
+            {
+              "cumulative_expected_water": 0.08330032227644478,
+              "day": 19,
+              "expected_positive_action_count": 0.05335147622482528,
+              "expected_water_pulse": 0.004125949085914135,
+              "failure_mass_after_dynamics": 0.1512410431185701,
+              "safe_sentinel_mass_after_dynamics": 2.4851493032394053e-11,
+              "total_mass": 0.9999999999999853
+            }
+          ],
+          "expected_water_abs_difference": 6.38378239159465e-16,
+          "forward_expected_water": 0.08330032227644478,
+          "forward_terminal_failure_mass": 0.1512410431185701,
+          "pass": true,
+          "risk_abs_difference": 1.4710455076283324e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.00011451732701728279,
+            "risk": 0.0003910412197690172
+          },
+          "model_expected_water": 0.08341483960346142,
+          "model_risk": 0.1508500018987996,
+          "reference_expected_water": 0.08330032227644414,
+          "reference_risk": 0.15124104311856862
+        },
+        "intensity": 0.0,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.00011451732701728279,
+            "max_abs_error": 0.00012280329995600914,
+            "p95_abs_error": 6.728118603593624e-05
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 6.54028135645135e-05,
+            "max_abs_error_risk": 0.00022780736431732285,
+            "p95_abs_error_expected_water": 2.2768384674390336e-05,
+            "p95_abs_error_risk": 0.00010644751975537586
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0004385599636652915,
+            "budget": 0.3,
+            "channel": "risk",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 0.6925000000000001
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -8.324565275330542e-05
+          },
+          "risk": {
+            "initial_abs_error": 0.0003910412197690172,
+            "max_abs_error": 0.0004385599636652915,
+            "p95_abs_error": 0.00026451896551673806
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.029099236719512867,
+          "lower_layer_p95_abs": 0.005108327632073682,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.01600019059935809,
+          "ordinary_median_abs": 2.1378884449614036e-05,
+          "ordinary_p95_abs": 0.00034935651209162995,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260928
+        },
+        "policy": "buffer",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0005326650751004414,
+            "abs_difference_risk": 0.0018841899883952906,
+            "expected_water": 0.0827676572013437,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.1531252331069639,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00010650170855573682,
+            "abs_difference_risk": 0.0003770257904379404,
+            "expected_water": 0.0831938205678884,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.15161806890900656,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00010652029109554928,
+            "abs_difference_risk": 0.000376987733379075,
+            "expected_water": 0.08319380198534859,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.1516180308519477,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.00010650170855520946,
+            "abs_difference_risk": 0.0003770257904389396,
+            "expected_water": 0.08319382056788893,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.15161806890900756,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260928,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 5.060892983355103e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "buffer_lambda_0_seed_20260929",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "5a847487cfc5956d7e6ca88bca92ee7ff1247f4084caee2f40a218224bacca92",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.08330032227644414,
+          "backward_terminal_failure_risk": 0.15124104311856862,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 2.8387941553501596e-05,
+              "safe_sentinel_mass_after_dynamics": 3.823923947244756e-60,
+              "total_mass": 0.9999999999999973
+            },
+            {
+              "cumulative_expected_water": 0.00045146008201256036,
+              "day": 1,
+              "expected_positive_action_count": 0.0056432510251570025,
+              "expected_water_pulse": 0.00045146008201256036,
+              "failure_mass_after_dynamics": 0.0021265162890916852,
+              "safe_sentinel_mass_after_dynamics": 2.0411073414118217e-34,
+              "total_mass": 0.9999999999999984
+            },
+            {
+              "cumulative_expected_water": 0.00294478803981924,
+              "day": 2,
+              "expected_positive_action_count": 0.031166599472583493,
+              "expected_water_pulse": 0.00249332795780668,
+              "failure_mass_after_dynamics": 0.007239893122186895,
+              "safe_sentinel_mass_after_dynamics": 1.5056768340149404e-25,
+              "total_mass": 0.9999999999999988
+            },
+            {
+              "cumulative_expected_water": 0.006899969238920412,
+              "day": 3,
+              "expected_positive_action_count": 0.04943976498876464,
+              "expected_water_pulse": 0.003955181199101172,
+              "failure_mass_after_dynamics": 0.014043538591764874,
+              "safe_sentinel_mass_after_dynamics": 4.085193325321066e-21,
+              "total_mass": 0.9999999999999989
+            },
+            {
+              "cumulative_expected_water": 0.011590372040932256,
+              "day": 4,
+              "expected_positive_action_count": 0.05863421717728023,
+              "expected_water_pulse": 0.004690402802011843,
+              "failure_mass_after_dynamics": 0.0216682308974196,
+              "safe_sentinel_mass_after_dynamics": 1.76269041850032e-18,
+              "total_mass": 0.9999999999999988
+            },
+            {
+              "cumulative_expected_water": 0.016626339980576613,
+              "day": 5,
+              "expected_positive_action_count": 0.06299011413421117,
+              "expected_water_pulse": 0.0050359679396443586,
+              "failure_mass_after_dynamics": 0.029677304811456796,
+              "safe_sentinel_mass_after_dynamics": 9.490158858762422e-17,
+              "total_mass": 0.9999999999999983
+            },
+            {
+              "cumulative_expected_water": 0.02180762328033125,
+              "day": 6,
+              "expected_positive_action_count": 0.06489243098186125,
+              "expected_water_pulse": 0.005181283299754635,
+              "failure_mass_after_dynamics": 0.0378609006884238,
+              "safe_sentinel_mass_after_dynamics": 1.5534137189888744e-15,
+              "total_mass": 0.9999999999999977
+            },
+            {
+              "cumulative_expected_water": 0.027026422358391308,
+              "day": 7,
+              "expected_positive_action_count": 0.06549085114568141,
+              "expected_water_pulse": 0.005218799078060058,
+              "failure_mass_after_dynamics": 0.046126767825357046,
+              "safe_sentinel_mass_after_dynamics": 1.2095539161914629e-14,
+              "total_mass": 0.999999999999997
+            },
+            {
+              "cumulative_expected_water": 0.03222168411121867,
+              "day": 8,
+              "expected_positive_action_count": 0.0653536084804794,
+              "expected_water_pulse": 0.0051952617528273565,
+              "failure_mass_after_dynamics": 0.054443496301509894,
+              "safe_sentinel_mass_after_dynamics": 5.750109336467297e-14,
+              "total_mass": 0.9999999999999962
+            },
+            {
+              "cumulative_expected_water": 0.037357544111735815,
+              "day": 9,
+              "expected_positive_action_count": 0.06477991439634058,
+              "expected_water_pulse": 0.005135860000517145,
+              "failure_mass_after_dynamics": 0.062809237341658,
+              "safe_sentinel_mass_after_dynamics": 1.939262304352867e-13,
+              "total_mass": 0.9999999999999956
+            },
+            {
+              "cumulative_expected_water": 0.04241255900835249,
+              "day": 10,
+              "expected_positive_action_count": 0.06393852876849544,
+              "expected_water_pulse": 0.00505501489661667,
+              "failure_mass_after_dynamics": 0.0712344538237552,
+              "safe_sentinel_mass_after_dynamics": 5.105839269744384e-13,
+              "total_mass": 0.9999999999999946
+            },
+            {
+              "cumulative_expected_water": 0.0473739537549558,
+              "day": 11,
+              "expected_positive_action_count": 0.06293054734517657,
+              "expected_water_pulse": 0.004961394746603315,
+              "failure_mass_after_dynamics": 0.07973285102742267,
+              "safe_sentinel_mass_after_dynamics": 1.118668994736725e-12,
+              "total_mass": 0.9999999999999936
+            },
+            {
+              "cumulative_expected_water": 0.052234351549523245,
+              "day": 12,
+              "expected_positive_action_count": 0.06181943240448337,
+              "expected_water_pulse": 0.0048603977945674455,
+              "failure_mass_after_dynamics": 0.08831701187745836,
+              "safe_sentinel_mass_after_dynamics": 2.131778757810069e-12,
+              "total_mass": 0.9999999999999927
+            },
+            {
+              "cumulative_expected_water": 0.056989817682362276,
+              "day": 13,
+              "expected_positive_action_count": 0.0606463719275586,
+              "expected_water_pulse": 0.004755466132839028,
+              "failure_mass_after_dynamics": 0.09699662071259296,
+              "safe_sentinel_mass_after_dynamics": 3.64662814640453e-12,
+              "total_mass": 0.9999999999999917
+            },
+            {
+              "cumulative_expected_water": 0.06163864245855785,
+              "day": 14,
+              "expected_positive_action_count": 0.05943869118594303,
+              "expected_water_pulse": 0.004648824776195579,
+              "failure_mass_after_dynamics": 0.10577802687147791,
+              "safe_sentinel_mass_after_dynamics": 5.730278385649554e-12,
+              "total_mass": 0.9999999999999907
+            },
+            {
+              "cumulative_expected_water": 0.06618056174384149,
+              "day": 15,
+              "expected_positive_action_count": 0.0582147546903967,
+              "expected_water_pulse": 0.004541919285283637,
+              "failure_mass_after_dynamics": 0.11466444272490342,
+              "safe_sentinel_mass_after_dynamics": 8.415613355082746e-12,
+              "total_mass": 0.9999999999999898
+            },
+            {
+              "cumulative_expected_water": 0.07061624748222814,
+              "day": 16,
+              "expected_positive_action_count": 0.05698697497925467,
+              "expected_water_pulse": 0.004435685738386657,
+              "failure_mass_after_dynamics": 0.12365639620444013,
+              "safe_sentinel_mass_after_dynamics": 1.1703555565739882e-11,
+              "total_mass": 0.9999999999999886
+            },
+            {
+              "cumulative_expected_water": 0.07494697012518767,
+              "day": 17,
+              "expected_positive_action_count": 0.05576373633309604,
+              "expected_water_pulse": 0.004330722642959528,
+              "failure_mass_after_dynamics": 0.13275224452749557,
+              "safe_sentinel_mass_after_dynamics": 1.556927572431407e-11,
+              "total_mass": 0.9999999999999876
+            },
+            {
+              "cumulative_expected_water": 0.07917437319053064,
+              "day": 18,
+              "expected_positive_action_count": 0.05455066327194825,
+              "expected_water_pulse": 0.004227403065342967,
+              "failure_mass_after_dynamics": 0.14194865873325774,
+              "safe_sentinel_mass_after_dynamics": 1.9969835287977526e-11,
+              "total_mass": 0.9999999999999865
+            },
+            {
+              "cumulative_expected_water": 0.08330032227644478,
+              "day": 19,
+              "expected_positive_action_count": 0.05335147622482528,
+              "expected_water_pulse": 0.004125949085914135,
+              "failure_mass_after_dynamics": 0.1512410431185701,
+              "safe_sentinel_mass_after_dynamics": 2.4851493032394053e-11,
+              "total_mass": 0.9999999999999853
+            }
+          ],
+          "expected_water_abs_difference": 6.38378239159465e-16,
+          "forward_expected_water": 0.08330032227644478,
+          "forward_terminal_failure_mass": 0.1512410431185701,
+          "pass": true,
+          "risk_abs_difference": 1.4710455076283324e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 3.215048482481386e-05,
+            "risk": 0.00017036685564805754
+          },
+          "model_expected_water": 0.08326817179161933,
+          "model_risk": 0.15141140997421668,
+          "reference_expected_water": 0.08330032227644414,
+          "reference_risk": 0.15124104311856862
+        },
+        "intensity": 0.0,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 3.215048482481386e-05,
+            "max_abs_error": 7.768586404315742e-05,
+            "p95_abs_error": 4.5539320924602945e-05
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 2.6827331500278717e-05,
+            "max_abs_error_risk": 0.00015715034001806405,
+            "p95_abs_error_expected_water": 1.2701003060969903e-05,
+            "p95_abs_error_risk": 7.337173329074323e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0003100824748620695,
+            "budget": 0.3,
+            "channel": "risk",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 0.7450000000000001
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -0.00010860386189046723
+          },
+          "risk": {
+            "initial_abs_error": 0.00017036685564805754,
+            "max_abs_error": 0.0003100824748620695,
+            "p95_abs_error": 0.00021961571952251258
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.0353014738665296,
+          "lower_layer_p95_abs": 0.005163617087866452,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.021947690994811975,
+          "ordinary_median_abs": 1.6319130593790004e-05,
+          "ordinary_p95_abs": 0.0002458074019345692,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260929
+        },
+        "policy": "buffer",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0005326650751004414,
+            "abs_difference_risk": 0.0018841899883952906,
+            "expected_water": 0.0827676572013437,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.1531252331069639,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00010650170855573682,
+            "abs_difference_risk": 0.0003770257904379404,
+            "expected_water": 0.0831938205678884,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.15161806890900656,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00010652029109554928,
+            "abs_difference_risk": 0.000376987733379075,
+            "expected_water": 0.08319380198534859,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.1516180308519477,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.00010650170855520946,
+            "abs_difference_risk": 0.0003770257904389396,
+            "expected_water": 0.08319382056788893,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.15161806890900756,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260929,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 5.098652551660532e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "buffer_lambda_0.12_seed_20260928",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "afc3577b763ab6189f6edf01cac9f06e688c4ff95c65d20e6c0559a48f608248",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.10289946395066953,
+          "backward_terminal_failure_risk": 0.30962021437533516,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0010201913598247554,
+              "safe_sentinel_mass_after_dynamics": 5.821180133947896e-16,
+              "total_mass": 1.0000000000000977
+            },
+            {
+              "cumulative_expected_water": 0.0013962352579713181,
+              "day": 1,
+              "expected_positive_action_count": 0.017452940724641465,
+              "expected_water_pulse": 0.0013962352579713181,
+              "failure_mass_after_dynamics": 0.0087597490701364,
+              "safe_sentinel_mass_after_dynamics": 3.7491776313664897e-13,
+              "total_mass": 1.0000000000001912
+            },
+            {
+              "cumulative_expected_water": 0.005544693408928109,
+              "day": 2,
+              "expected_positive_action_count": 0.0518557268869599,
+              "expected_water_pulse": 0.004148458150956791,
+              "failure_mass_after_dynamics": 0.02199760134385201,
+              "safe_sentinel_mass_after_dynamics": 1.2812104827589909e-11,
+              "total_mass": 1.0000000000002816
+            },
+            {
+              "cumulative_expected_water": 0.01125574067571538,
+              "day": 3,
+              "expected_positive_action_count": 0.0713880908348409,
+              "expected_water_pulse": 0.005711047266787271,
+              "failure_mass_after_dynamics": 0.03781780830770602,
+              "safe_sentinel_mass_after_dynamics": 1.264436989312969e-10,
+              "total_mass": 1.0000000000003697
+            },
+            {
+              "cumulative_expected_water": 0.017648100787455184,
+              "day": 4,
+              "expected_positive_action_count": 0.07992897380550797,
+              "expected_water_pulse": 0.0063923601117398055,
+              "failure_mass_after_dynamics": 0.054704354894232615,
+              "safe_sentinel_mass_after_dynamics": 6.340589103853987e-10,
+              "total_mass": 1.0000000000004563
+            },
+            {
+              "cumulative_expected_water": 0.0242942896357315,
+              "day": 5,
+              "expected_positive_action_count": 0.08320188833343042,
+              "expected_water_pulse": 0.006646188848276313,
+              "failure_mass_after_dynamics": 0.07196110474312492,
+              "safe_sentinel_mass_after_dynamics": 2.09392776311849e-09,
+              "total_mass": 1.000000000000541
+            },
+            {
+              "cumulative_expected_water": 0.03098336199209789,
+              "day": 6,
+              "expected_positive_action_count": 0.08392056853874526,
+              "expected_water_pulse": 0.006689072356366393,
+              "failure_mass_after_dynamics": 0.08928293421562897,
+              "safe_sentinel_mass_after_dynamics": 5.237611678001741e-09,
+              "total_mass": 1.000000000000624
+            },
+            {
+              "cumulative_expected_water": 0.03760399360690249,
+              "day": 7,
+              "expected_positive_action_count": 0.08330328691454583,
+              "expected_water_pulse": 0.006620631614804597,
+              "failure_mass_after_dynamics": 0.10655298668818844,
+              "safe_sentinel_mass_after_dynamics": 1.078530685662656e-08,
+              "total_mass": 1.0000000000007054
+            },
+            {
+              "cumulative_expected_water": 0.04409416567584341,
+              "day": 8,
+              "expected_positive_action_count": 0.08193435324341734,
+              "expected_water_pulse": 0.006490172068940915,
+              "failure_mass_after_dynamics": 0.1237418891145356,
+              "safe_sentinel_mass_after_dynamics": 1.928197619046037e-08,
+              "total_mass": 1.0000000000007851
+            },
+            {
+              "cumulative_expected_water": 0.050418412192169734,
+              "day": 9,
+              "expected_positive_action_count": 0.08012143019585778,
+              "expected_water_pulse": 0.006324246516326325,
+              "failure_mass_after_dynamics": 0.14085615316656477,
+              "safe_sentinel_mass_after_dynamics": 3.101600499356017e-08,
+              "total_mass": 1.0000000000008635
+            },
+            {
+              "cumulative_expected_water": 0.05655661635446385,
+              "day": 10,
+              "expected_positive_action_count": 0.07804145994115184,
+              "expected_water_pulse": 0.006138204162294114,
+              "failure_mass_after_dynamics": 0.157912657862886,
+              "safe_sentinel_mass_after_dynamics": 4.60193245066265e-08,
+              "total_mass": 1.0000000000009404
+            },
+            {
+              "cumulative_expected_water": 0.06249800489988474,
+              "day": 11,
+              "expected_positive_action_count": 0.0758034921767957,
+              "expected_water_pulse": 0.005941388545420889,
+              "failure_mass_after_dynamics": 0.1749271007266706,
+              "safe_sentinel_mass_after_dynamics": 6.41179264617992e-08,
+              "total_mass": 1.0000000000010154
+            },
+            {
+              "cumulative_expected_water": 0.0682376922881583,
+              "day": 12,
+              "expected_positive_action_count": 0.07347805731816559,
+              "expected_water_pulse": 0.005739687388273561,
+              "failure_mass_after_dynamics": 0.1919096438313336,
+              "safe_sentinel_mass_after_dynamics": 8.500030688578528e-08,
+              "total_mass": 1.000000000001089
+            },
+            {
+              "cumulative_expected_water": 0.07377458256094871,
+              "day": 13,
+              "expected_positive_action_count": 0.07111222376064447,
+              "expected_water_pulse": 0.0055368902727904075,
+              "failure_mass_after_dynamics": 0.20886402858208453,
+              "safe_sentinel_mass_after_dynamics": 1.0828212266052095e-07,
+              "total_mass": 1.000000000001161
+            },
+            {
+              "cumulative_expected_water": 0.07911004553029227,
+              "day": 14,
+              "expected_positive_action_count": 0.0687380113444575,
+              "expected_water_pulse": 0.005335462969343568,
+              "failure_mass_after_dynamics": 0.2257881940087041,
+              "safe_sentinel_mass_after_dynamics": 1.335568825994091e-07,
+              "total_mass": 1.0000000000012317
+            },
+            {
+              "cumulative_expected_water": 0.08424705872700615,
+              "day": 15,
+              "expected_positive_action_count": 0.06637743730481441,
+              "expected_water_pulse": 0.00513701319671388,
+              "failure_mass_after_dynamics": 0.24267541498665873,
+              "safe_sentinel_mass_after_dynamics": 1.6043049549371987e-07,
+              "total_mass": 1.0000000000013007
+            },
+            {
+              "cumulative_expected_water": 0.08918964075307859,
+              "day": 16,
+              "expected_positive_action_count": 0.064045707284754,
+              "expected_water_pulse": 0.004942582026072443,
+              "failure_mass_after_dynamics": 0.25951550137476437,
+              "safe_sentinel_mass_after_dynamics": 1.8854167414962154e-07,
+              "total_mass": 1.0000000000013687
+            },
+            {
+              "cumulative_expected_water": 0.09394247223516583,
+              "day": 17,
+              "expected_positive_action_count": 0.06175331056996158,
+              "expected_water_pulse": 0.004752831482087242,
+              "failure_mass_after_dynamics": 0.2762958676357172,
+              "safe_sentinel_mass_after_dynamics": 2.175716747171273e-07,
+              "total_mass": 1.0000000000014346
+            },
+            {
+              "cumulative_expected_water": 0.09851064007400524,
+              "day": 18,
+              "expected_positive_action_count": 0.05950743213846776,
+              "expected_water_pulse": 0.004568167838839415,
+              "failure_mass_after_dynamics": 0.2930024133524022,
+              "safe_sentinel_mass_after_dynamics": 2.472468434142788e-07,
+              "total_mass": 1.0000000000014992
+            },
+            {
+              "cumulative_expected_water": 0.10289946395067004,
+              "day": 19,
+              "expected_positive_action_count": 0.05731292166014713,
+              "expected_water_pulse": 0.004388823876664796,
+              "failure_mass_after_dynamics": 0.3096202143753374,
+              "safe_sentinel_mass_after_dynamics": 2.7733680573590617e-07,
+              "total_mass": 1.0000000000015623
+            }
+          ],
+          "expected_water_abs_difference": 5.134781488891349e-16,
+          "forward_expected_water": 0.10289946395067004,
+          "forward_terminal_failure_mass": 0.3096202143753374,
+          "pass": true,
+          "risk_abs_difference": 2.220446049250313e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 0.00021897660477022962,
+            "risk": 0.000595787569875661
+          },
+          "model_expected_water": 0.10311844055543976,
+          "model_risk": 0.3090244268054595,
+          "reference_expected_water": 0.10289946395066953,
+          "reference_risk": 0.30962021437533516
+        },
+        "intensity": 0.12,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 0.00021897660477022962,
+            "max_abs_error": 0.00022909777653747077,
+            "p95_abs_error": 0.0001475887589816091
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 0.00011180462943835567,
+            "max_abs_error_risk": 0.0003008299739171716,
+            "p95_abs_error_expected_water": 3.155675922493215e-05,
+            "p95_abs_error_risk": 0.0001265793073969928
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0008105037950459082,
+            "budget": 0.3,
+            "channel": "risk",
+            "day": 0,
+            "local_time": 0.75,
+            "water": 0.8600000000000001
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -0.00015189146536858517
+          },
+          "risk": {
+            "initial_abs_error": 0.000595787569875661,
+            "max_abs_error": 0.0008105037950459082,
+            "p95_abs_error": 0.000581399998727269
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.053698502774279885,
+          "lower_layer_p95_abs": 0.006218929839135661,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.034807799368253976,
+          "ordinary_median_abs": 4.366607873338538e-05,
+          "ordinary_p95_abs": 0.0007717847171649174,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260928
+        },
+        "policy": "buffer",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0007102244069509683,
+            "abs_difference_risk": 0.002489783336153184,
+            "expected_water": 0.10218923954371856,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.31210999771148834,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00013870713587439687,
+            "abs_difference_risk": 0.0004819819241994594,
+            "expected_water": 0.10276075681479513,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.3101021962995346,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00013997009872249166,
+            "abs_difference_risk": 0.0004779852390524031,
+            "expected_water": 0.10275949385194703,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.31009819961438756,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.00013870710567953637,
+            "abs_difference_risk": 0.0004819820317258916,
+            "expected_water": 0.10276075684498999,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.31010219640706105,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260928,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 4.19073067305098e-06,
+          "pass": true
+        }
+      }
+    },
+    {
+      "key": "buffer_lambda_0.12_seed_20260929",
+      "checks": {
+        "boundary_exact": true,
+        "budget_feasible": true,
+        "daily_interface": true,
+        "expected_water_initial": true,
+        "expected_water_p95": true,
+        "finite_outputs": true,
+        "forward_backward_ledger_closure": true,
+        "output_range": true,
+        "pide_median": true,
+        "pide_p95": true,
+        "risk_initial": true,
+        "risk_lower_layer_p95": true,
+        "risk_p95": true,
+        "terminal_exact": true,
+        "trace_interpolation": true
+      },
+      "metrics": {
+        "budget_feasibility": {
+          "evaluated_decision_states": 800,
+          "max_abs_violation": 2.7755575615628914e-17,
+          "pass": true
+        },
+        "export_sha256": "84d5bbd6e2fd3f541afe85fc506108ffa1bcad45210c7d8b7e6f8366016a2b35",
+        "fallback": null,
+        "forward_policy_ledger": {
+          "backward_expected_water": 0.10289946395066953,
+          "backward_terminal_failure_risk": 0.30962021437533516,
+          "closure_tolerance": 1e-10,
+          "daily": [
+            {
+              "cumulative_expected_water": 0.0,
+              "day": 0,
+              "expected_positive_action_count": 0.0,
+              "expected_water_pulse": 0.0,
+              "failure_mass_after_dynamics": 0.0010201913598247554,
+              "safe_sentinel_mass_after_dynamics": 5.821180133947896e-16,
+              "total_mass": 1.0000000000000977
+            },
+            {
+              "cumulative_expected_water": 0.0013962352579713181,
+              "day": 1,
+              "expected_positive_action_count": 0.017452940724641465,
+              "expected_water_pulse": 0.0013962352579713181,
+              "failure_mass_after_dynamics": 0.0087597490701364,
+              "safe_sentinel_mass_after_dynamics": 3.7491776313664897e-13,
+              "total_mass": 1.0000000000001912
+            },
+            {
+              "cumulative_expected_water": 0.005544693408928109,
+              "day": 2,
+              "expected_positive_action_count": 0.0518557268869599,
+              "expected_water_pulse": 0.004148458150956791,
+              "failure_mass_after_dynamics": 0.02199760134385201,
+              "safe_sentinel_mass_after_dynamics": 1.2812104827589909e-11,
+              "total_mass": 1.0000000000002816
+            },
+            {
+              "cumulative_expected_water": 0.01125574067571538,
+              "day": 3,
+              "expected_positive_action_count": 0.0713880908348409,
+              "expected_water_pulse": 0.005711047266787271,
+              "failure_mass_after_dynamics": 0.03781780830770602,
+              "safe_sentinel_mass_after_dynamics": 1.264436989312969e-10,
+              "total_mass": 1.0000000000003697
+            },
+            {
+              "cumulative_expected_water": 0.017648100787455184,
+              "day": 4,
+              "expected_positive_action_count": 0.07992897380550797,
+              "expected_water_pulse": 0.0063923601117398055,
+              "failure_mass_after_dynamics": 0.054704354894232615,
+              "safe_sentinel_mass_after_dynamics": 6.340589103853987e-10,
+              "total_mass": 1.0000000000004563
+            },
+            {
+              "cumulative_expected_water": 0.0242942896357315,
+              "day": 5,
+              "expected_positive_action_count": 0.08320188833343042,
+              "expected_water_pulse": 0.006646188848276313,
+              "failure_mass_after_dynamics": 0.07196110474312492,
+              "safe_sentinel_mass_after_dynamics": 2.09392776311849e-09,
+              "total_mass": 1.000000000000541
+            },
+            {
+              "cumulative_expected_water": 0.03098336199209789,
+              "day": 6,
+              "expected_positive_action_count": 0.08392056853874526,
+              "expected_water_pulse": 0.006689072356366393,
+              "failure_mass_after_dynamics": 0.08928293421562897,
+              "safe_sentinel_mass_after_dynamics": 5.237611678001741e-09,
+              "total_mass": 1.000000000000624
+            },
+            {
+              "cumulative_expected_water": 0.03760399360690249,
+              "day": 7,
+              "expected_positive_action_count": 0.08330328691454583,
+              "expected_water_pulse": 0.006620631614804597,
+              "failure_mass_after_dynamics": 0.10655298668818844,
+              "safe_sentinel_mass_after_dynamics": 1.078530685662656e-08,
+              "total_mass": 1.0000000000007054
+            },
+            {
+              "cumulative_expected_water": 0.04409416567584341,
+              "day": 8,
+              "expected_positive_action_count": 0.08193435324341734,
+              "expected_water_pulse": 0.006490172068940915,
+              "failure_mass_after_dynamics": 0.1237418891145356,
+              "safe_sentinel_mass_after_dynamics": 1.928197619046037e-08,
+              "total_mass": 1.0000000000007851
+            },
+            {
+              "cumulative_expected_water": 0.050418412192169734,
+              "day": 9,
+              "expected_positive_action_count": 0.08012143019585778,
+              "expected_water_pulse": 0.006324246516326325,
+              "failure_mass_after_dynamics": 0.14085615316656477,
+              "safe_sentinel_mass_after_dynamics": 3.101600499356017e-08,
+              "total_mass": 1.0000000000008635
+            },
+            {
+              "cumulative_expected_water": 0.05655661635446385,
+              "day": 10,
+              "expected_positive_action_count": 0.07804145994115184,
+              "expected_water_pulse": 0.006138204162294114,
+              "failure_mass_after_dynamics": 0.157912657862886,
+              "safe_sentinel_mass_after_dynamics": 4.60193245066265e-08,
+              "total_mass": 1.0000000000009404
+            },
+            {
+              "cumulative_expected_water": 0.06249800489988474,
+              "day": 11,
+              "expected_positive_action_count": 0.0758034921767957,
+              "expected_water_pulse": 0.005941388545420889,
+              "failure_mass_after_dynamics": 0.1749271007266706,
+              "safe_sentinel_mass_after_dynamics": 6.41179264617992e-08,
+              "total_mass": 1.0000000000010154
+            },
+            {
+              "cumulative_expected_water": 0.0682376922881583,
+              "day": 12,
+              "expected_positive_action_count": 0.07347805731816559,
+              "expected_water_pulse": 0.005739687388273561,
+              "failure_mass_after_dynamics": 0.1919096438313336,
+              "safe_sentinel_mass_after_dynamics": 8.500030688578528e-08,
+              "total_mass": 1.000000000001089
+            },
+            {
+              "cumulative_expected_water": 0.07377458256094871,
+              "day": 13,
+              "expected_positive_action_count": 0.07111222376064447,
+              "expected_water_pulse": 0.0055368902727904075,
+              "failure_mass_after_dynamics": 0.20886402858208453,
+              "safe_sentinel_mass_after_dynamics": 1.0828212266052095e-07,
+              "total_mass": 1.000000000001161
+            },
+            {
+              "cumulative_expected_water": 0.07911004553029227,
+              "day": 14,
+              "expected_positive_action_count": 0.0687380113444575,
+              "expected_water_pulse": 0.005335462969343568,
+              "failure_mass_after_dynamics": 0.2257881940087041,
+              "safe_sentinel_mass_after_dynamics": 1.335568825994091e-07,
+              "total_mass": 1.0000000000012317
+            },
+            {
+              "cumulative_expected_water": 0.08424705872700615,
+              "day": 15,
+              "expected_positive_action_count": 0.06637743730481441,
+              "expected_water_pulse": 0.00513701319671388,
+              "failure_mass_after_dynamics": 0.24267541498665873,
+              "safe_sentinel_mass_after_dynamics": 1.6043049549371987e-07,
+              "total_mass": 1.0000000000013007
+            },
+            {
+              "cumulative_expected_water": 0.08918964075307859,
+              "day": 16,
+              "expected_positive_action_count": 0.064045707284754,
+              "expected_water_pulse": 0.004942582026072443,
+              "failure_mass_after_dynamics": 0.25951550137476437,
+              "safe_sentinel_mass_after_dynamics": 1.8854167414962154e-07,
+              "total_mass": 1.0000000000013687
+            },
+            {
+              "cumulative_expected_water": 0.09394247223516583,
+              "day": 17,
+              "expected_positive_action_count": 0.06175331056996158,
+              "expected_water_pulse": 0.004752831482087242,
+              "failure_mass_after_dynamics": 0.2762958676357172,
+              "safe_sentinel_mass_after_dynamics": 2.175716747171273e-07,
+              "total_mass": 1.0000000000014346
+            },
+            {
+              "cumulative_expected_water": 0.09851064007400524,
+              "day": 18,
+              "expected_positive_action_count": 0.05950743213846776,
+              "expected_water_pulse": 0.004568167838839415,
+              "failure_mass_after_dynamics": 0.2930024133524022,
+              "safe_sentinel_mass_after_dynamics": 2.472468434142788e-07,
+              "total_mass": 1.0000000000014992
+            },
+            {
+              "cumulative_expected_water": 0.10289946395067004,
+              "day": 19,
+              "expected_positive_action_count": 0.05731292166014713,
+              "expected_water_pulse": 0.004388823876664796,
+              "failure_mass_after_dynamics": 0.3096202143753374,
+              "safe_sentinel_mass_after_dynamics": 2.7733680573590617e-07,
+              "total_mass": 1.0000000000015623
+            }
+          ],
+          "expected_water_abs_difference": 5.134781488891349e-16,
+          "forward_expected_water": 0.10289946395067004,
+          "forward_terminal_failure_mass": 0.3096202143753374,
+          "pass": true,
+          "risk_abs_difference": 2.220446049250313e-15
+        },
+        "initial": {
+          "absolute_errors": {
+            "expected_water": 1.2443627803518376e-05,
+            "risk": 0.00027059240356785974
+          },
+          "model_expected_water": 0.10288702032286601,
+          "model_risk": 0.309890806778903,
+          "reference_expected_water": 0.10289946395066953,
+          "reference_risk": 0.30962021437533516
+        },
+        "intensity": 0.12,
+        "interface": {
+          "by_day_max_abs_error": {
+            "0": 0.0,
+            "1": 0.0,
+            "10": 0.0,
+            "11": 0.0,
+            "12": 0.0,
+            "13": 0.0,
+            "14": 0.0,
+            "15": 0.0,
+            "16": 0.0,
+            "17": 0.0,
+            "18": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0,
+            "8": 0.0,
+            "9": 0.0
+          },
+          "max_abs_error": 0.0,
+          "pass": true
+        },
+        "interface_trace_shape": {
+          "budget_levels": 5,
+          "channels": [
+            "expected_water",
+            "risk"
+          ],
+          "day_traces": 19,
+          "water_nodes": 1919
+        },
+        "model_values": {
+          "expected_water": {
+            "initial_abs_error": 1.2443627803518376e-05,
+            "max_abs_error": 9.536748745603285e-05,
+            "p95_abs_error": 4.334347412801717e-05
+          },
+          "finite": true,
+          "grid": {
+            "budget_values": [
+              0.0,
+              0.06,
+              0.14,
+              0.22,
+              0.3
+            ],
+            "compared_value_count_per_channel": 240500,
+            "day_count": 20,
+            "tau_values": [
+              0.0,
+              0.25,
+              0.5,
+              0.75,
+              1.0
+            ],
+            "water_points_per_slice": 481
+          },
+          "lower_layer": {
+            "max_abs_error_expected_water": 3.25820566197052e-05,
+            "max_abs_error_risk": 0.00015585570785925373,
+            "p95_abs_error_expected_water": 1.77989194867965e-05,
+            "p95_abs_error_risk": 8.928600191470678e-05
+          },
+          "maximum_error_location": {
+            "abs_error": 0.0004431029546075327,
+            "budget": 0.3,
+            "channel": "risk",
+            "day": 0,
+            "local_time": 0.0,
+            "water": 0.7775000000000001
+          },
+          "output_range": {
+            "max": 1.0,
+            "min": -8.623122633799607e-05
+          },
+          "risk": {
+            "initial_abs_error": 0.00027059240356785974,
+            "max_abs_error": 0.0004431029546075327,
+            "p95_abs_error": 0.00022537343053130734
+          }
+        },
+        "pide_residual": {
+          "finite": true,
+          "lower_layer_count": 12800,
+          "lower_layer_max_abs": 0.07467608701462668,
+          "lower_layer_p95_abs": 0.007346279351036047,
+          "ordinary_count": 12800,
+          "ordinary_max_abs": 0.051170181203451306,
+          "ordinary_median_abs": 5.390077026830504e-05,
+          "ordinary_p95_abs": 0.0007625583713170079,
+          "sample_seed": 991831,
+          "training_seed_not_used_for_audit_sampling": 20260929
+        },
+        "policy": "buffer",
+        "reference_sensitivity": [
+          {
+            "abs_difference_expected_water": 0.0007102244069509683,
+            "abs_difference_risk": 0.002489783336153184,
+            "expected_water": 0.10218923954371856,
+            "h": 0.01,
+            "label": "grid_h_0.01",
+            "risk": 0.31210999771148834,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00013870713587439687,
+            "abs_difference_risk": 0.0004819819241994594,
+            "expected_water": 0.10276075681479513,
+            "h": 0.005,
+            "label": "grid_h_0.005",
+            "risk": 0.3101021962995346,
+            "upper": 1.55
+          },
+          {
+            "abs_difference_expected_water": 0.00013997009872249166,
+            "abs_difference_risk": 0.0004779852390524031,
+            "expected_water": 0.10275949385194703,
+            "h": 0.005,
+            "label": "upper_1.15_h_0.005",
+            "risk": 0.31009819961438756,
+            "upper": 1.15
+          },
+          {
+            "abs_difference_expected_water": 0.00013870710567953637,
+            "abs_difference_risk": 0.0004819820317258916,
+            "expected_water": 0.10276075684498999,
+            "h": 0.005,
+            "label": "upper_1.95_h_0.005",
+            "risk": 0.31010219640706105,
+            "upper": 1.95
+          }
+        ],
+        "seed": 20260929,
+        "stderr": "",
+        "terminal_boundary": {
+          "boundary": 0.0,
+          "terminal": 0.0
+        },
+        "trace_interpolation": {
+          "day_count": 19,
+          "gate": 0.0001,
+          "max_abs_error_all_channels": 4.500398940357475e-06,
+          "pass": true
+        }
+      }
+    }
+  ]
+}

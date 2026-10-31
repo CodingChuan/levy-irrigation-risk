@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "risk_limits": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "source_hashes": {
+    "bellman.py": "d6a373a41a4552e94c740f785c5ad52a045a44f95d1cc96008fc7c6fa1778d6b",
+    "model.py": "6a290d3806d77d9fbb54861e98f6692852b05b875e9b4c2212ed5a032f27d73f",
+    "frontier.py": "c5fd5561a5a444678f8a0a79d2cbb7abac35db7ff95b2bd96602507e4d6263b9"
+  },
+  "input_binding_sha": "11f628d87ab1042a49f963a2ca804ff2891fcbe2cc35059d3735882dd471fafe"
+}
